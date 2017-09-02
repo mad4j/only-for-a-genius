@@ -1,19 +1,43 @@
-# Only for Genius
+# Only for a Genius
 
 *Il 95% di voi non sarà capace di dare una risposta al seguente problema.*
 
-Trovo molto spesso sul web (a dire il vero il più delle volte su Facebook) problemi pseudo-matematici che cercano di attirare click proponendo quesiti banali o che, al più, nascondono qualche ambiguità di notazione.
-Se invece si tentasse di proporre un piccolo problema di facile comprensione, ma che pochi fossero capaci di risolvere?
-Vediamo cosa sono riscito a fare.
+Trovo molto spesso sul web (a dire il vero il più delle volte su Facebook) problemi pseudo-matematici che cercano di attirare click proponendo quesiti banali o che, al più, nascondono qualche ambiguità di notazione. Un po' poco soddisfacente per chi vuole sgranchirsi un po' la mente.
+Questa pagina contiene il mio personale contributo alla matematica ricreativa. 
 
 
 ## Episodio 01
 
-### Il problema
+![Episodio 01](only4genius-ep01.png)
 
-![Episodio 01](only-for-a-genius-ep01.png)
 
-### La soluzione
+## Episodio 02
+
+Si tratta di trovare il numero che, logicamente, sia la continuzione della sequenza.
+
+![Episodio 02](only4genius-ep02.png)
+
+
+## Episodio 03
+
+Quale numero non ha nulla in comune con gli altri?
+
+![Episodio 03](only4genius-ep03.png)
+
+
+## Episodio 04
+
+![Episodio 04](only4genius-ep04.png)
+
+
+## Episodio 05
+
+![Episodio 05](only4genius-ep05.png)
+
+
+# Le soluzioni
+
+## Episodio 01
 
 Si tratta di scomporre un numero in due fattori.
 Tenendo conto dei soli numeri positivi, i valori cercati sono:
@@ -40,15 +64,9 @@ int main() {
 }
 ```
 
+
 ## Episodio 02
 
-### Il problema
-
-Si tratta di trovare il numero che, logicamente, sia la continuzione della sequenza.
-
-![Episodio 02](only4genius-ep02.png)
-
-### La soluzione
 Il numero cercato è **363**.
 
 Infatti le cifre di un numero in sequenza sono il conteggio delle lettere che descrivono la cifra corrispondente del numero che precede.
@@ -80,41 +98,22 @@ digraph G {
 
 ## Episodio 03
 
-### Il problema
-
-Quale numero non ha nulla in comune con gli altri?
-
-![Episodio 03](only4genius-ep03.png)
-
-### La soluzione
 Il numero cercato è **3754**.
 
 Tutti gli altri numeri hanno 18 come somma delle loro cifre.
 
+
 ## Episodio 04
-
-### Il problema
-
-![Episodio 04](only-for-a-genius-ep04.png)
-
-### La soluzione
 
 Il numero cercato è **1012**.
 Sono delle semplici somme in base 3.
 
+
 ## Episodio 05
 
-### Il problema
-
-Trovare l'elemento che completa il seguente insieme di lettere:
-
-**F G Q R L J ?**
-
-### La soluzione
 È la lettera **P**. 
 
 Sono tutte le lettere dell'alfabeto che non hanno elementi di simmetria.
 
 *Inserire diagramma di Venn*
-
 
