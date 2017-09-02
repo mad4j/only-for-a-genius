@@ -8,31 +8,31 @@ Questa pagina contiene il mio personale contributo alla matematica ricreativa.
 
 ## Episodio 01
 
-![Episodio 01](only4genius-ep01.png)
+![Episodio 01](only-for-a-genius-ep01.png)
 
 
 ## Episodio 02
 
 Si tratta di trovare il numero che, logicamente, sia la continuzione della sequenza.
 
-![Episodio 02](only4genius-ep02.png)
+![Episodio 02](only-for-a-genius-ep02.png)
 
 
 ## Episodio 03
 
 Quale numero non ha nulla in comune con gli altri?
 
-![Episodio 03](only4genius-ep03.png)
+![Episodio 03](only-for-a-genius-ep03.png)
 
 
 ## Episodio 04
 
-![Episodio 04](only4genius-ep04.png)
+![Episodio 04](only-for-a-genius-ep04.png)
 
 
 ## Episodio 05
 
-![Episodio 05](only4genius-ep05.png)
+![Episodio 05](only-for-a-genius-ep05.png)
 
 
 # Le soluzioni
@@ -93,7 +93,7 @@ digraph G {
 }
 ```
 
-![Episodio 02 - Sequenza](resources/only4genius-ep02-sequence.png)
+![Episodio 02 - Sequenza](resources/only-for-a-genius-ep02-sequence.png)
 
 
 ## Episodio 03
