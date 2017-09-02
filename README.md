@@ -11,7 +11,7 @@ Vediamo cosa sono riscito a fare.
 
 ### Il problema
 
-![Episodio 01](only4genius-ep01.png)
+![Episodio 01](only-for-a-genius-ep01.png)
 
 ### La soluzione
 
