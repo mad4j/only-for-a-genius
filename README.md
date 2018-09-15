@@ -38,6 +38,10 @@ Quale numero non ha nulla in comune con gli altri?
 
 ![Episodio 06](Problema01.png)
 
+## Episodio 07
+
+![Episodio 07](Problema02.png)
+
 
 # Le soluzioni
 
@@ -124,3 +128,142 @@ Sono tutte le lettere dell'alfabeto che non hanno elementi di simmetria.
 ## Soluzione Episodio 06
 
 Tutte le espressioni matematiche sono corrette. Di conseguenza, l'affermazione falsa deve essere la prima (quella che non contiene simboli matematici) *[TBV ma allora non c'è contraddizione??]*
+
+## Soluzione Episodio 07
+
+Il numero cercato è **18**.
+Ogni numero è il prodotto delli singole cifre del precendente.
+
+Due osservazioni:
+* tutte le sequenze che si possono costriure tramite questa regola finiscono con **0**
+* la sequenza riportata nel problema è quella più lunga possibile (77 -- 49 --36 --18 -- 8 -- 0)
+
+Entrambe le osservazioni si possono verificare facilmente tramite una rappresentazione grafica di tutte le sequenze possibili:
+
+![Episodio 07 - Grafo](resources/only-for-a-genius-ep07-graph.png)
+
+Il diagramma precedente è stato ottenuto tramite il programma GraphViz.
+
+```
+digraph G {
+  0 -> 0
+  1 -> 0
+  2 -> 0
+  3 -> 0
+  4 -> 0
+  5 -> 0
+  6 -> 0
+  7 -> 0
+  8 -> 0
+  9 -> 0
+  10 -> 0
+  11 -> 1
+  12 -> 2
+  13 -> 3
+  14 -> 4
+  15 -> 5
+  16 -> 6
+  17 -> 7
+  18 -> 8
+  19 -> 9
+  20 -> 0
+  21 -> 2
+  22 -> 4
+  23 -> 6
+  24 -> 8
+  25 -> 10
+  26 -> 12
+  27 -> 14
+  28 -> 16
+  29 -> 18
+  30 -> 0
+  31 -> 3
+  32 -> 6
+  33 -> 9
+  34 -> 12
+  35 -> 15
+  36 -> 18
+  37 -> 21
+  38 -> 24
+  39 -> 27
+  40 -> 0
+  41 -> 4
+  42 -> 8
+  43 -> 12
+  44 -> 16
+  45 -> 20
+  46 -> 24
+  47 -> 28
+  48 -> 32
+  49 -> 36
+  50 -> 0
+  51 -> 5
+  52 -> 10
+  53 -> 15
+  54 -> 20
+  55 -> 25
+  56 -> 30
+  57 -> 35
+  58 -> 40
+  59 -> 45
+  60 -> 0
+  61 -> 6
+  62 -> 12
+  63 -> 18
+  64 -> 24
+  65 -> 30
+  66 -> 36
+  67 -> 42
+  68 -> 48
+  69 -> 54
+  70 -> 0
+  71 -> 7
+  72 -> 14
+  73 -> 21
+  74 -> 28
+  75 -> 35
+  76 -> 42
+  77 -> 49
+  78 -> 56
+  79 -> 63
+  80 -> 0
+  81 -> 8
+  82 -> 16
+  83 -> 24
+  84 -> 32
+  85 -> 40
+  86 -> 48
+  87 -> 56
+  88 -> 64
+  89 -> 72
+  90 -> 0
+  91 -> 9
+  92 -> 18
+  93 -> 27
+  94 -> 36
+  95 -> 45
+  96 -> 54
+  97 -> 63
+  98 -> 72
+  99 -> 81
+}
+```
+
+Il grafo è stato invece generato tramite il seguente programma in C/C++:
+
+```
+
+#include <cstdio>
+
+int main() {
+
+    printf("digraph G {\n");
+    for (auto i=0; i<100; i++) {
+        printf("  %d -> %d\n", i, (i/10)*(i%10));
+    }
+    printf("}");
+
+    return 0;
+}
+```
+
