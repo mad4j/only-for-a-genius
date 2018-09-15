@@ -142,7 +142,7 @@ Entrambe le osservazioni si possono verificare facilmente tramite una rappresent
 
 ![Episodio 07 - Grafo](resources/only-for-a-genius-ep07-graph.png)
 
-Il diagramma precedente è stato ottenuto tramite il programma GraphViz.
+Il diagramma precedente è stato ottenuto tramite il programma GraphViz ([online](http://viz-js.com/)).
 
 ```
 digraph G {
