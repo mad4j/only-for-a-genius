@@ -34,6 +34,10 @@ Quale numero non ha nulla in comune con gli altri?
 
 ![Episodio 05](only-for-a-genius-ep05.png)
 
+## Episodio 06
+
+![Episodio 06](Problema01.png)
+
 
 # Le soluzioni
 
