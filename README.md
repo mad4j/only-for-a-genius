@@ -45,7 +45,7 @@ Quale numero non ha nulla in comune con gli altri?
 
 # Le soluzioni
 
-## Episodio 01
+## Soluzione Episodio 01
 
 Si tratta di scomporre un numero in due fattori.
 Tenendo conto dei soli numeri positivi, i valori cercati sono:
@@ -73,7 +73,7 @@ int main() {
 ```
 
 
-## Episodio 02
+## Soluzione Episodio 02
 
 Il numero cercato è **363**.
 
@@ -104,20 +104,20 @@ digraph G {
 ![Episodio 02 - Sequenza](resources/only-for-a-genius-ep02-sequence.png)
 
 
-## Episodio 03
+## Soluzione Episodio 03
 
 Il numero cercato è **3754**.
 
 Tutti gli altri numeri hanno 18 come somma delle loro cifre.
 
 
-## Episodio 04
+## Soluzione Episodio 04
 
 Il numero cercato è **1012**.
 Sono delle semplici somme in base 3.
 
 
-## Episodio 05
+## Soluzione Episodio 05
 
 È la lettera **P**. 
 
@@ -251,8 +251,7 @@ digraph G {
 
 Il grafo è stato invece generato tramite il seguente programma in C/C++:
 
-```
-
+```c++
 #include <cstdio>
 
 int main() {
