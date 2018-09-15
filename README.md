@@ -1,10 +1,10 @@
 # Only for a Genius
 
-*Il 95% di voi non sarà capace di dare una risposta al seguente problema.*
+*Il 95% di voi non sarà capace di dare la risposta corretta al seguente problema.*
 
-Trovo molto spesso sul web (a dire il vero il più delle volte su Facebook) problemi pseudo-matematici che cercano di attirare click proponendo quesiti banali o che, al più, nascondono qualche ambiguità di notazione. Un po' poco soddisfacente per chi vuole sgranchirsi un po' la mente.
-Questa pagina contiene il mio personale contributo alla matematica ricreativa. 
+Trovo molto spesso sul web (a dire il vero il più delle volte su Facebook) problemi pseudo-matematici che cercano di attirare click proponendo quesiti banali o che, al più, nascondono qualche noiosa ambiguità di notazione. Un po' poco soddisfacente per chi vuole sgranchirsi un po' la mente.
 
+Questa pagina presenta qualche contributo che, spero, . 
 
 ## Episodio 01
 
@@ -33,6 +33,10 @@ Quale numero non ha nulla in comune con gli altri?
 ## Episodio 05
 
 ![Episodio 05](only-for-a-genius-ep05.png)
+
+## Episodio 06
+
+![Episodio 06](Problema01.png)
 
 
 # Le soluzioni
@@ -117,3 +121,6 @@ Sono tutte le lettere dell'alfabeto che non hanno elementi di simmetria.
 
 *Inserire diagramma di Venn*
 
+## Soluzione Episodio 06
+
+Tutte le espressioni matematiche sono corrette. Di conseguenza, l'affermazione falsa deve essere la prima (quella che non contiene simboli matematici) *[TBV ma allora non c'è contraddizione??]*
