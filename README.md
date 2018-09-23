@@ -127,7 +127,7 @@ Sono tutte le lettere dell'alfabeto che non hanno elementi di simmetria.
 
 ## Soluzione Episodio 06
 
-Tutte le espressioni matematiche sono corrette. Di conseguenza, l'affermazione falsa deve essere la prima (quella che non contiene simboli matematici) *[TBV ma allora non c'è contraddizione??]*
+Tutte le espressioni matematiche sono sbagliate. Di conseguenza, l'unica affermazione vera deve essere la prima (quella che non contiene simboli matematici).
 
 ## Soluzione Episodio 07
 
